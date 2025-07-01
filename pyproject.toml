@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gkvfig"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python package for generating PDF of GKV standard ASCII output"
 authors = [
     { name = "Shinya Maeyama", email = "maeyama.shinya@nifs.ac.jp" }
