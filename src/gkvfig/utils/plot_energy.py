@@ -2,6 +2,8 @@ from pathlib import Path
 
 import numpy as np
 from numpy.typing import NDArray
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.ticker import LogFormatter
 from matplotlib.backends.backend_pdf import PdfPages

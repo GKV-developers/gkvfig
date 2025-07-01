@@ -2,6 +2,8 @@ from pathlib import Path
 from typing import Optional
 
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.axes import Axes
 from matplotlib.ticker import LogFormatter
