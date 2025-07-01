@@ -23,7 +23,7 @@ pip install git+https://github.com/GKV-developers/gkvfig.git
 ```sh
 python -m gkvfig -d DIR
 ```
-The argument `DIR` is the GKV output directory. The namelist file `DIR/gkvp.namelist.001`, log file `DIR/log/gkvp.000000.0.log.001`, and hst directory `DIR/hst/` should exist.
+The argument `DIR` is a path of the GKV output directory. The namelist file `DIR/gkvp.namelist.001`, log file `DIR/log/gkvp.000000.0.log.001`, and hst directory `DIR/hst/` should exist.
 You get a summary PDF file `CWD/figpdf_yyyymmdd_hhmmss/fig_stdout.pdf`.
 
 #### **(ii) As a Python function**
